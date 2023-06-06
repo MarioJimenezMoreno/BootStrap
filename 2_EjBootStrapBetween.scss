@@ -1,0 +1,43 @@
+/* Bootstrap Original */
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+/* Modificaciones */
+
+$grid-breakpoints: (
+    xs: 0px,
+    sm: 250px,
+    md: 500px,
+    lg: 750px,
+    xl: 1000px,
+    xxl: 1250px
+);
+
+@include media-breakpoint-between(xs,lg){
+body{
+    background-color: violet;
+}
+}
+
+@include media-breakpoint-between(lg,fluid){
+    body{
+        background-color: green;
+    }
+}
+
+/* Opción 2 */
+
+// @include media-breakpoint-down(lg){
+//     body{
+//         background-color: violet;
+//     }
+// }
+
+// @include media-breakpoint-up(lg){
+//     body{
+//         background-color: green;
+//     }
+// }

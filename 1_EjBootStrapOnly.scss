@@ -1,0 +1,41 @@
+
+/* Bootstrap Original */
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+/* Modificaciones */
+@include media-breakpoint-only(xs){
+     body{
+         background-color: orange;
+}
+}
+@include media-breakpoint-only(sm){
+    body{
+        background-color: limegreen;
+}
+}
+@include media-breakpoint-only(md){
+    body{
+        background-color: violet;
+}
+}
+@include media-breakpoint-only(lg){
+    body{
+        background-color: yellow;
+}
+}
+@include media-breakpoint-only(xl){
+    body{
+        background-color: aqua;
+}
+}
+@include media-breakpoint-only(xxl){
+    body{
+        background-color: red;
+}
+}
+
+
