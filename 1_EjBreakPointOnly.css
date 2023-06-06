@@ -1,6 +1,5 @@
 @charset "UTF-8";
-/* Bootstrap Original */
-/*!
+/* Bootstrap Original */ /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -12033,4 +12032,34 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* Modificaciones *//*# sourceMappingURL=5_EjBSGridBreakpoints.css.map */
+/* Modificaciones */
+@media (max-width: 575.98px) {
+  body {
+    background-color: orange;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    background-color: limegreen;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    background-color: violet;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  body {
+    background-color: aqua;
+  }
+}
+@media (min-width: 1400px) {
+  body {
+    background-color: red;
+  }
+}/*# sourceMappingURL=1_EjBreakPointOnly.css.map */
