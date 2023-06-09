@@ -6,9 +6,3 @@
 @import "./node_modules/bootstrap/scss/mixins";
 
 /* Modificaciones */
-
-.col-3{
-    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) 1px;
-    --bs-border-opacity: 1;
-    border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity));
-}
